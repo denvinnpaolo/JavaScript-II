@@ -1,6 +1,20 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const government = () =>{
+  var taxMoney=100000000000;
+  console.log(`we have this much spending power ${taxMoney}`);
+
+  const departmentStores = () =>{
+    var taxCharged=$5;
+    console.log(`we only charge ${taxCharged} per big transaction`)
+
+    const person = () =>{
+      var moneyEarned=4000;
+      console.log(`I only make ${moneyEarned} this month. Stores charge me ${taxCharged} everytime I buy that is why there is this much ${taxMoney}`)
+    }
+  }
+}
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
